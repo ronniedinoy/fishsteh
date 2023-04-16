@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+body{
+    /* background-image: url(spacedark.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+#logo1{
+    position: absolute;    
+    top: 0;
+    cursor: not-allowed; 
+    margin-left: 20px; 
+    color: black;
+    text-transform: lowercase;
+    font-size: 50px;
+    font-weight: 10px;
+    background: linear-gradient(green, yellow, red);
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30px;
+    padding: 10px;
+}
+
+#logo2:hover{
+    background: rgba(104, 101, 100, 0.2);
+    backdrop-filter: blur(5px);
+    color: white;
+}
+#logo2{
+    position: absolute;    
+    top: 17px;
+    margin-left: 90px;
+    cursor: help;
+    color: rgb(158, 151, 151);
+    font-size: 30px;
+    font-weight: bolder;
+    border-color: white;
+    border-radius: 50px;
+    border-style: none;
+    padding: 10px;
+    background: transparent;
+}
+
+#entry{
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(34, 235, 208);
+    font-size: 30px;;
+}
+
+#home{
+    display: grid;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    color: orange;
+    background-color: green;
+    font-size: 20px;
+    max-width: 275px;
+    border-radius: 30px;
+    border-radius: 20px;
+}
+
+#AGE, #SEX, #NAME{
+    margin: auto;
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(42, 248, 203, 0.2);
+    margin-top: 10px;
+}
+
+button:hover{
+    background: green;
+    color: white;
+    backdrop-filter: blur(10px);
+}
+
+button{
+    display: block;
+    align-self: center;
+    font-size: 10px;
+    color: lightgreen;
+    padding: 20px;
+    border-top-left-radius: 20px; 
+    border-bottom-right-radius: 20px;
+    background-color: red;
+    margin: auto;
+    margin-top: 30px;
+}
+
